@@ -21,6 +21,7 @@
     .wrapper {
         max-width: 360px;
         margin: 0 auto;
+        overflow: hidden;
     }
 
     /*БЛОК С НОМЕРАМИ*/
@@ -191,11 +192,6 @@
     }
 
     .main_image-text2 {
-        color: white;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 36px;
-        line-height: 42px;
         display: none;
     }
 
@@ -446,8 +442,6 @@
     }
 
     .video_picpad {
-        padding-left: 330px;
-        margin-top: -190px;
         display: none;
     }
 
@@ -590,7 +584,6 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 120%;
-
     }
 
     .btnpad {
@@ -610,6 +603,7 @@
 
     .main_works-back {
         background-color: #1E242B;
+        max-width: 360px;
     }
 
     .main_works-resolution {
@@ -744,10 +738,12 @@
 
     .footer_back {
         background-color: #1E242B;
+        max-width: 360px;
     }
 
     .footer_back2 {
         background-color: #263240;
+        max-width: 360px;
     }
 
     .footer_resolution {
