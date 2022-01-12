@@ -31,6 +31,11 @@
 
     /*БЛОК С ЛОГО, ССЫЛКАМИ И КНОПКАМИ*/
 
+    .header_resolution {
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    
     .header_main {
         display: flex;
         flex-wrap: wrap;
@@ -57,7 +62,6 @@
     }
 
     .pad_logo-brg {
-        margin-right: 10px;
         display: none;
     }
 
@@ -74,22 +78,18 @@
     }
 
     .pad_logo-logo {
-        margin-right: 271px;
         display: none;
     }
 
     .pad_logo-vk {
-        margin-right: 25px;
         display: none;
     }
 
     .pad_logo-yt {
-        margin-right: 25px;
         display: none;
     }
 
     .pad_logo-inst {
-        margin-right: 60px;
         display: none;
     }
 
@@ -102,8 +102,6 @@
     .header_main-list {
         display: none;
     }
-
-    .header_main-item {}
 
     .header_main-btn1 {
         display: none;
@@ -147,6 +145,7 @@
         flex-wrap: wrap;
         margin: 0;
         padding-top: 340px;
+        max-width: 320px;
 
     }
 
@@ -154,6 +153,7 @@
         width: 700px;
         display: block;
         margin-top: 15px;
+        max-width: 320px;
     }
 
     .main_image-textmob {
@@ -183,16 +183,10 @@
         line-height: 21px;
         padding-top: 34px;
         display: table;
+        max-width: 320px;
     }
 
     .main_image-text {
-        color: transparent;
-        background: linear-gradient(to top left, #FF0000 15%, #065DAD);
-        -webkit-background-clip: text;
-        font-weight: 900;
-        font-size: 36px;
-        line-height: 42px;
-        margin-right: 20px;
         display: none;
     }
 
@@ -206,7 +200,7 @@
     }
 
     .main_image-content2 {
-        width: 375px;
+        max-width: 320px;
     }
 
     .main_image-text3 {
@@ -434,6 +428,10 @@
 
     /*БЛОК С ВИДЕО*/
 
+    .main_video {
+        max-width: 360px;
+    }
+    
     .main_video-back {
         max-width: 360px;
         height: 440px;
@@ -460,7 +458,7 @@
     }
 
     .video_text {
-        width: 400px;
+        width: 360px;
         padding: 46px 0 200px 39px;
         color: white;
         font-weight: bold;
@@ -500,16 +498,6 @@
     }
 
     .allnews_btn {
-        height: 46px;
-        width: 190px;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 120%;
-        color: #0754A6;
-        border: 3px solid;
-        border-image: linear-gradient(to right, #065DAD, #FF0000);
-        border-image-slice: 1;
-        background-color: white;
         display: none;
     }
 
@@ -651,17 +639,7 @@
     }
 
     .work_btn {
-        width: 190px;
-        height: 48px;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 120%;
-        color: white;
-        border: 2px solid;
-        border-color: white;
-        background-color: transparent;
-        margin-top: 180px;
-        margin-bottom: 59px;
+        display: none;
     }
 
     .main_work-blocks {
@@ -669,12 +647,13 @@
     }
 
     .main_work-block1 {
-        width: 360px;
+        width: 328px;
         margin-right: 0px;
     }
 
     .main_work-block2 {
-        width: 733px;
+        width: 0px;
+        display: none;
     }
 
     .work_block1 {
@@ -683,7 +662,7 @@
     }
 
     .work_block4 {
-        display: flex;
+        display: none;
     }
 
     .work_pic1 {
@@ -758,6 +737,7 @@
     .main_map {
         height: 540px;
         background-image: url(../img/mapmob.svg);
+        max-width: 360px;
     }
 
     /*ПОДВАЛ САЙТА*/
@@ -788,13 +768,7 @@
     }
 
     .footer_logo {
-        width: 320px;
-        padding-top: 71px;
         display: none;
-    }
-
-    .footer_logo-pic {
-        margin-bottom: 27px;
     }
 
     .footer_text {

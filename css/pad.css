@@ -90,7 +90,8 @@
         display: none;
     }
 
-    .header_main-item {}
+    .header_main-item {
+    }
 
     .header_main-btn1 {
         display: none;
@@ -404,7 +405,6 @@
 
     .main_video-content {
         display: block;
-        ;
     }
 
     .video_picpad {
@@ -458,16 +458,6 @@
     }
 
     .allnews_btn {
-        height: 46px;
-        width: 190px;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 120%;
-        color: #0754A6;
-        border: 3px solid;
-        border-image: linear-gradient(to right, #065DAD, #FF0000);
-        border-image-slice: 1;
-        background-color: white;
         display: none;
     }
 
@@ -610,17 +600,7 @@
     }
 
     .work_btn {
-        width: 190px;
-        height: 48px;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 120%;
-        color: white;
-        border: 2px solid;
-        border-color: white;
-        background-color: transparent;
-        margin-top: 180px;
-        margin-bottom: 59px;
+        display: none;
     }
 
     .main_work-blocks {
@@ -727,7 +707,8 @@
 
     .main_map {
         height: 618px;
-        background-image: url(../img/mappad.svg)
+        background-image: url(../img/mappad.svg);
+        max-width: 768px;
     }
 
     /*ПОДВАЛ САЙТА*/
@@ -751,7 +732,7 @@
 
     .footer_resolution2 {
         height: 78px;
-        max-width: 1300px;
+        max-width: 732px;
         margin: 0 auto;
         color: white;
         padding-left: 45px;
@@ -776,6 +757,7 @@
 
     .footer_content1 {
         display: flex;
+        max-width: 730px;
     }
 
     .navmenu_item-link {
@@ -866,15 +848,17 @@
         flex-wrap: nowrap;
         margin-left: 0px;
         margin-top: 56px;
+        max-width: 730px;
     }
 
     .footer_number {
         display: flex;
+        max-width: 730px;
     }
 
     .ft_number-text {
         padding-left: 8px;
-        width: 250px;
+        width: 235px;
         line-height: 1.3;
         font-weight: normal;
         font-size: 15px;
