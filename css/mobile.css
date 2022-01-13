@@ -868,14 +868,14 @@
 
     @media screen and (max-width: 375px) {
         .footer_back2 {
-        background-color: #1E242B;
+        background-color: #263240;
         max-width: 375px;
     }
     }
     
     @media screen and (max-width: 360px) {
         .footer_back2 {
-        background-color: #1E242B;
+        background-color: #263240;
         max-width: 360px;
     }
     }
